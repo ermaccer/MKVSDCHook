@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\unreal">
+      <UniqueIdentifier>{f21b365d-0519-42d4-96ce-fcf1602ce130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mk">
+      <UniqueIdentifier>{35a1ea41-21a4-44c6-8012-6b49c5852c87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mk8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FVector.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="mk8menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FRotator.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\MKCamera.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryMgr_X360.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FMatrix.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FMath.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MKVSDCHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mk8.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mk8menu.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mk\MKCamera.cpp">
+      <Filter>Header Files\mk</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryMgr_X360.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FMatrix.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FMath.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
